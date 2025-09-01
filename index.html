@@ -1,42 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>contact page</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Contact Us</h1>
-      <form action="#" method="post">
-        <div class="haut">
-          <section>
-            <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required placeholder="Enter your name"/>
-          </section>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zillion Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo"><h2>Zillion</h2></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Investors</a>
+      <a href="#">About Us</a>
+    </nav>
+    <a href="#" class="btn">Contact Us</a>
+  </header>
 
-          <section>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Enter your email"/>
-          </section>
-        </div>
+  <!-- Hero -->
+  <section class="hero">
+    <h1>A smarter way to invest <br> and save for the future</h1>
+    <a href="#" class="cta">Know More</a>
+  </section>
 
-        <section>
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
-        </section>
-
-        <button type="submit">Send</button>
-        <input type="checkbox" name="subscribe" id="subscribe">
-      </form>
+  <!-- Features -->
+  <section class="features">
+    <div class="feature">
+      <img src="images/team-brainstorming-5-1.png" alt="">
+      <h3>Define</h3>
+      <p>Define your home need. Zillion is a wealth container platform...</p>
     </div>
-  </body>
+    <div class="feature">
+      <img src="images/baseball-52.png" alt="">
+      <h3>Strategy</h3>
+      <p>Define your home need. Zillion is a wealth container platform...</p>
+    </div>
+    <div class="feature">
+      <img src="images/ceo-24-10f9b.png" alt="">
+      <h3>Build</h3>
+      <p>Define your home need. Zillion is a wealth container platform...</p>
+    </div>
+  </section>
+
+  <!-- Section with image -->
+  <section class="section">
+    <div>
+      <h2>Funds & SPVs made simple</h2>
+      <p>Zillion is a wealth Container platform...</p>
+      <ul>
+        <li>✔ Transactional Banking</li>
+        <li>✔ Legal Documentation</li>
+        <li>✔ Fund & SPV Structuring</li>
+      </ul>
+    </div>
+    <img src="images/computer-78.png" alt="illustration">
+  </section>
+
+  <!-- Cards -->
+  <section class="cards">
+    <div class="card">
+      <img src="images/question-41.png" alt="">
+      <h3>Strong Fundamentals</h3>
+      <p>Focus on businesses with strong fundamentals...</p>
+    </div>
+    <div class="card">
+      <img src="images/team-meeting-1-20.png" alt="">
+      <h3>First of Capital Institutional</h3>
+      <p>Seek opportunities to professionalize businesses...</p>
+    </div>
+    <div class="card">
+      <img src="images/team-presentation-4-68.png" alt="">
+      <h3>Control Oriented Investments</h3>
+      <p>Primarily business services, niche consumers...</p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="stat">
+      <h3>480</h3>
+      <p>Wealth Containers running on Zillion</p>
+    </div>
+    <div class="stat">
+      <h3>340</h3>
+      <p>Investors on-boarded on the platform</p>
+    </div>
+    <div class="stat">
+      <h3>$16k</h3>
+      <p>Invested in Wealth containers</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <div>
+        <h3>Zillion</h3>
+        <p>Follow us:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Legal Notice</a>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <a href="#">Blog</a>
+        <a href="#">Zillion Connect</a>
+        <a href="#">Zillion Podcast</a>
+        <a href="#">Help Center</a>
+        <a href="#">Security</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Support</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © Zillion. 2022. All rights reserved
+    </div>
+  </footer>
+</body>
 </html>
